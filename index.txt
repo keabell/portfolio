@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head><title> E-Portfolio </title>
+<link rel="stylesheet" href="portfolio.css" type="text/css">
+</head>
+<body class="personalspace">
+
+<h1 class="heading"> E-Portfolio </h1>
+
+<div class="topnav">
+  <a class="nav" href="index.html">Home</a>
+  <a class="nav" href="abtme.html">My Personal Space</a>
+  <a class="nav" href="ICT.html">ICT</a>
+  <a class="nav" href="AP.html">AP</a>
+  <a class="nav" href="events.html">Events</a>
+</div>
+<br><br>
+
+<main>
+  <div class="reflection-container">
+    <div class="media-row">
+      <img src="me.jpg" alt="Me Photo">
+      <img src="me2.jpg" alt="Me Photo">
+      <img src="mendhim.jpg" alt="Me Photo">
+    </div>
+  </div>
+
+<h1 class="content"> About Me </h1>
+    <div class="reflection-container">
+    <div class="reflection-text">
+      <p> I am Ayeka Belle S. Yamagishi, a 14-year-old student from Las Pinas City National Science High School. <br> I was born on the 5th of October, 2011, at 6:05PM. </p> <br>
+      <h1 class="content"> Interests </h1> <br>
+      <ul> 
+          <li> My favorite artist are The Ridley's and my favorite songs from them are "Someday" and "Intertwine". </li>
+          <li> Most people can tell what my favorite color is just by looking at my stuff. My favorite color is <b> blue </b>. </li>
+          <li> My favorite foods are japanese curry and sinigang. </li>
+      </ul>
+    </div>
+   </div>
+
+
+
+</body>
+</html>
+

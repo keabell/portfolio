@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html>
+<head><title> E-Portfolio </title>
+<link rel="stylesheet" href="portfolio.css" type="text/css">
+</head>
+<body>
+
+<h1 class="heading"> E-Portfolio </h1>
+
+<div class="topnav">
+  <a class="nav" href="index.html">Home</a>
+  <a class="nav" href="abtme.html">My Personal Space</a>
+  <a class="nav" href="ICT.html">ICT</a>
+  <a class="nav" href="AP.html">AP</a>
+  <a class="nav" href="events.html">Events</a>
+</div>
+<br><br>
+
+
+<main>
+     <a class="back" href="ICT.html"> &#8592; Back </a> <br><br><br>
+
+<h1 class="content"> Lesson 6 </h1><br><br>
+
+<h3 class="text" style="font-size:30px;"> Setting Dimensions </h3> <br>
+<p> CSS can be used to manage dimensions such as visibility, width or height of HTML elements. </p> <br>
+
+<table border="1">
+   <tr>
+      <th> Property </th>
+      <th> Definition </th>
+      <th> Example </th>
+   </tr>
+   <tr>
+      <td> visibility </td>
+      <td> Indicates if an element is visible or hidden </td>
+      <td> <b> <u> visibility:visible </u> </b> – default value, the value is visible <br>
+           <b> <u> visibility:hidden </u> </b> - The element is hidden (but still takes up space) <br>
+           <b> <u> visibility:collapse </u> </b> - Only for table rows (&lt;tr&gt;), row groups (&lt;tbody&gt;), columns (&lt;col&gt;), column groups (&lt;colgroup&gt;), and flex items. <br>
+           This value removes a row or column as if display: none where used. If collapse is used on other elements, it renders as "hidden" </td>
+   </tr>
+   <tr>
+      <td> width </td>
+      <td>  Indicates the width </td>
+      <td> width:200px </td>
+   </tr>
+   <tr>
+      <td> height </td>
+      <td> Indicates the height </td>
+      <td> height:auto </td>
+   </tr>
+   <tr>
+      <td> line-height </td>
+      <td> Indicates the line spacing </td>
+      <td> line-height:12px </td>
+   </tr>
+   <tr>
+      <td> max-height </td>
+      <td> Indicates the maximum height </td>
+      <td> max-height:12px </td>
+   <tr>
+      <td> min-height </td>
+      <td> Indicates the minimum height </td>
+      <td> min-height:12px </td>
+   </tr>
+   <tr>
+      <td> max-width </td>
+      <td> Indicates the maximum width </td>
+      <td> max-width:12px </td>
+   </tr>
+   <tr>
+      <td> min-width </td>
+      <td> Indicates the minimum width </td>
+      <td> min-width:12px </td>
+   </tr>
+</table> <br>
+
+<h3 class="text" style="font-size:30px;"> Pseudo-Classes and Links </h3> <br>
+
+<ul>
+    <li> Recall that classes are user-defined selectors that can be used to control individual HTML element formatting. </li>
+    <li> Pseudo-classes are defined by a colon and are not user-defined. Specific pseudo-classes can be used on specific HTML elements only. </li>
+    <li> The anchor element has four pseudo-classes: <b> <i> link, visited, hover and active. </i> </b> Each one affects the behavior of the anchor element. </li>
+    <li> The <b> <i> link </i> </b> pseudo-class is for <b> <i> hyperlinks </i> </b> that have <b> <i> NOT </i> </b> yet visited. </li>
+    <li> The <b> <i> visited </i> </b> pseudo-class is for <b> <i> visited hyperlinks. </i> </b> </li>
+    <li> The <b> <i> hover </i> </b> pseudo-class is for <b> <i> hyperlinks </i> </b> when the mouse is <b> <i> hovered </i> </b> over them. </li>
+    <li> The <b> <i> active </i> </b> pseudo-class is for <b> <i> hyperlinks </i> </b> when they are <b> <i> clicked. </i> </b> </li>
+</ul>
+
+<h4> Pseudo-Classes and Links Property & Syntax </h4> 
+<ul>
+    <li> The order in which the pseudo-classes are stated is important. </li> 
+    <li> Take note of the <b> LVHA </b> or <b><u>L</u></b>ink, <b><u>V</u></b>isited, <b><u>H</u></b>over, <b><u>A</u></b>ctive is the order of the pseudo-classes. </li>
+</ul>
+
+<p> <b> Note: </b> The value that you place inside {…} will be displayed whenever a pseudo-class property is performed. You can set the color of the text or element, its background, its decoration and many other characters. </p>
+
+<table border="1">
+   <tr>
+      <th> Property </th>
+      <th> Value </th>
+      <th> Description </th>
+   </tr>
+   <tr>
+      <td> :link </td>
+      <td> a:link {…} </td>
+      <td> Sets unvisited link characteristic. </td>
+   </tr>
+   <tr>
+      <td> :visited </td>
+      <td>  a:visited {…} </td>
+      <td> Sets visited link characteristic or effect. </td>
+   </tr>
+   <tr>
+      <td> :active </td>
+      <td> a:active {…} </td>
+      <td> Sets the character of an active link element as when the user clicks the mouse on the link. </td>
+   </tr>
+   <tr>
+      <td> :hover </td>
+      <td> a:hover {…} </td>
+      <td> Sets the character of a link element as whenthe user hovers or moves the mouse over the link. </td>
+   </tr>
+   <tr>
+      <td> :focus </td>
+      <td> a:focus {…} </td>
+      <td> Sets the character of an active link element as when the user clicks and moves the mouse on the link. </td>
+   </tr>
+</table> <br>
+
+<ul>
+    <li> Be reminded that the hover property should be placed after the link property for it to function properly. </li>
+    <li>  Pseudo-classes can also be used on any element or block elements on the web page, especially the hover property, so that, whenever one hovers over an image, paragraph or any element, you can set properties to make it more interactive. Example is changing         the font color, setting a background, border and many other properties. </li>
+
+<br><br><br>
+
+<h1 class="content"> Reflection </h1>
+<p> In this lesson, I learned how CSS controls the size and visibility of elements using properties like width, height, and line-height. I also learnt about how pseudo-classes make webpages interactive by changing the appearance of links when users hover or click on them. This can help me use more complex codes to design webpages that are both organized neatly and interactive. </p> <br><br><br>
+
+<a class="back" href="ICT6.html"> &#8593; Back to Top </a> <br><br>
+
+
+</body>
+</html>

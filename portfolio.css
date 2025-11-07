@@ -1,0 +1,29 @@
+a.nav{font-family:Arial; font-size:17px; font-weight:bold; color:SteelBlue; line-height:22px;float:left; text-align:right; padding:14px 16px; text-decoration:none; background-color:White;}
+a:link {color:SteelBlue;}
+a:hover {color:AliceBlue; background-color:CornflowerBlue;}
+a:active {color:White;}
+h1.heading{color:SteelBlue; background-color:White; font-family: Arial; font-weight:bold; padding:7px 13px; text-align:center; border-radius:10px; border:2px solid SteelBlue; display:block;}
+div.topnav{color:SteelBlue; background-color:White; text-align:Justify; overflow:hidden; border-radius:10px; border:2px solid SkyBlue;}
+p{background-color:White; color:SteelBlue; display:inline-block; text-align:Justify; padding:7px 13px;}
+h1.content{color:White; background-color:SteelBlue; display:inline-block; padding:7px 9px;}
+h3.text{color:White; background-color:SkyBlue; display:inline-block; padding:7px 9px; border-radius:10px; border:2px solid SteelBlue;}
+a.lessons{font-family:Arial; font-size:27px; font-weight:bold; color:SteelBlue; line-height:22px; text-align:center; padding:50px 60px; text-decoration:none; background-color:White; margin:70px;}
+a.output{font-family:Arial; font-size:27px; font-weight:bold; color:SteelBlue; line-height:22px; padding:10px 7px; background-color:White; margin:30px;}
+a.back{font-family:Arial; font-size:17px; font-weight:bold; color:White; line-height:22px; text-align:center; padding:14px 16px; text-decoration:none; background-color:SteelBlue;}
+li{color:SteelBlue; background-color:White; padding:14px 7px;}
+ol.example{color:SteelBlue; padding:14px 7px; font-size: 13px;}
+body{background-color:AliceBlue;}
+h4{color:SteelBlue; background-color:White; display:inline-block; padding:7px 9px; border:2px solid SkyBlue;}
+img{margin:40px;}
+h1.head2{color:SteelBlue; background-color:White; font-family: Arial; font-weight:bold; padding:7px 13px; text-align:center; border-radius:10px; border:2px solid SteelBlue; display:inline;}
+.image-container {position:relative; display:inline-block; background-color:AliceBlue; overflow:hidden; border-radius:10px; border: 2px solid SteelBlue;}
+.image-container img {width: 300px; border-radius: 10px;  transition: transform 0.3s ease;}
+.image-container:hover img {transform: scale(1.2);}
+.tooltip {opacity: 1;}
+dt{color:White; background-color:SkyBlue; display:inline-block; padding:7px 9px; border-radius:10px; border:2px solid SteelBlue; font-size: 20px;}
+dd{background-color:White; color:SteelBlue; display:inline-block; text-align:Justify; padding:7px 13px;}
+body.personalspace {background-image: url('background.jpg'); background-size: cover; background-repeat: no-repeat; color: white; text-align: center; margin: 0; padding: 30px;}
+.reflection-container {background-color: AliceBlue; border-radius: 20px; padding: 30px; max-width: 1200px; margin: auto; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);}
+.media-row {display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 30px;}
+.media-row img, .media-row video  {width: 420px; height: 300px; border: 3px solid SteelBlue; border-radius: 10px; object-fit: cover; background-color: LightBlue; color:white; padding:10px; border-radius:20px; transition: opacity 0.3s ease; white-space:nowrap;}
+.reflection-text {text-align: justify; color: white; font-weight: bold; line-height: 1.6; padding: 0 40px;}

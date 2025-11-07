@@ -1,0 +1,13 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title> External styles </title>
+<link rel="stylesheet" href="link.css" type="text/css">
+</head>
+<body>
+<p> External style sheets allow you to develop a consistent style across pages. </p>
+
+<img src="external.jpg" alt="External" width="700" height="300"> <img src="css.jpg" alt="CSS" width="600" height="150">
+
+</body>
+</html>

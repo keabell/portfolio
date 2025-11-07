@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head><title> E-Portfolio </title>
+<link rel="stylesheet" href="portfolio.css" type="text/css">
+</head>
+<body>
+
+<h1 class="heading"> E-Portfolio </h1>
+
+<div class="topnav">
+  <a class="nav" href="index.html">Home</a>
+  <a class="nav" href="abtme.html">My Personal Space</a>
+  <a class="nav" href="ICT.html">ICT</a>
+  <a class="nav" href="AP.html">AP</a>
+  <a class="nav" href="events.html">Events</a>
+</div>
+<br><br>
+
+
+<main>
+     <a class="back" href="ICT.html"> &#8592; Back </a> <br><br><br>
+
+<h1 class="content"> Lesson 5 </h1><br><br>
+
+<h3 class="text" style="font-size:30px;"> CSS Selectors </h3> <br>
+
+<p> CSS selectors are used to “find” or “select” the HTML elements that you want to style. </p> <br>
+
+<h4> CSS selectors are divided into 6 types: <br>
+
+<ol> 
+    <li> Class selector </li>
+    <li> Element selector or Tag selector </li>
+    <li> ID selector </li>
+    <li> Universal selector </li>
+    <li> Group selector </li>
+    <li> Attribute selector </li>
+</ol> 
+</h4> <br>
+
+<h3 class="text" style="font-size:30px;"> Element Selector </h3> <br>
+<p> - selects HTML elements (p, div, h1, etc.) and applies CSS to them. </p> <br>
+
+<h4> Example CSS Code: </h4>
+<p> p {line-height: 1.5; font-size: 16px;} </p> <br>
+
+<p> 
+&lt;!DOCTYPE html&gt; <br>
+&lt;html&gt; <br>
+&lt;head&gt;&lt;title&gt; CSS selectors &lt;/title&gt; <br>
+&lt;link rel=“stylesheet” href=“example.css” type=“text/css”&gt; <br>
+&lt;/head&gt; <br>
+&lt;body&gt; <br>
+&lt;h1&gt; Heading &lt;/h1&gt; <br>
+&lt;p&gt; This paragraph is Steel Blue &lt;/p&gt; <br>
+&lt;/body&gt; <br>
+&lt;/html&gt; </p> <br>
+
+<h4> example.css &#8594; </h4>
+<p style="background-color:SteelBlue; color:White;">
+h1 {color:blue;}
+p{color:SteelBlue;} </p> <br>
+
+<a class="output" href="example.html"> Browser Output </a> <br>
+
+<h3 class="text" style="font-size:30px;"> ID Selector </h3> <br>
+<ul>
+    <li> is a style applied to one element in a page. </li>
+    <li> normally used once, usually in a page title or the navigation part of the page. </li>
+    <li> defined by “#” and uses id attribute of the HTML element. </li>
+    <li> ID selector selects the HTML element with a unique identifier (id) and adds CSS to it. </li>
+    <li>  is not advisable to start an id selector with a number because some browsers do not support it. </li>
+    <li> the ID selector is unique and selects one unique element. </li>
+</ul> <br>
+
+<h4> Example HTML Code: </h4>
+<p> &lt;div id="header"&gt;Welcome to my website&lt;/div&gt; </p>
+
+<h4> Example CSS Code: </h4>
+<p> #header {background-color: navy; color: white;} </p> <br>
+
+<p> 
+&lt;!DOCTYPE html&gt; <br>
+&lt;html&gt; <br>
+&lt;head&gt;&lt;title&gt; CSS selectors &lt;/title&gt; <br>
+&lt;link rel="stylesheet" href="style.css" type="text/css"&gt; <br>
+&lt;/head&gt; <br>
+&lt;body&gt; <br>
+&lt;p&gt; First paragraph </p&gt; <br>
+&lt;p&gt; Second paragraph &lt;/p&gt; <br>
+&lt;p id="third-paragraph"&gt; Third paragraph &lt;/p&gt; <br>
+&lt;/body&gt; <br>
+&lt;/html&gt; </p> <br>
+
+<h4> style.css &#8594; </h4>
+<p style="background-color:SteelBlue; color:White;">
+#third-paragraph{color:Purple; text-align:right;} </p> <br>
+
+<a class="output" href="style.html"> Browser Output </a> <br>
+
+
+<h3 class="text" style="font-size:30px;"> Universal Selector </h3> <br>
+<p> The universal selector selects every single HTML element on the page. It is written using the asterisk ( * ) character . </p> <br>
+
+<h4> Example CSS Code: </h4>
+<p> * {margin: 0; padding: 0; box-sizing: border-box;} </p> <br>
+
+<p>
+&lt;!DOCTYPE html&gt; <br>
+&lt;html&gt; <br>
+&lt;head&gt; <br>
+&lt;title&gt; CSS selectors &lt;/title&gt; <br>
+&lt;link rel="stylesheet" href="halimbawa.css" type="text/css"&gt; <br>
+&lt;/head&gt; <br>
+&lt;body&gt; <br>
+&lt;h1&gt; Heading &lt;/h1&gt; <br>
+&lt;p&gt; Text &lt;/p&gt; <br>
+&lt;p&gt; Content &lt;/p&gt; <br>
+&lt;/body&gt; <br>
+&lt;/html&gt; </p> <br>
+
+<h4> halimbawa.css &#8594; </h4>
+<p style="background-color:SteelBlue; color:White;">
+* {color:Red; background-color:Lavender;} </p> <br>
+
+<a class="output" href="halimbawa.html"> Browser Output </a> <br>
+
+<h3 class="text" style="font-size:30px;"> Group Selector </h3> <br>
+<p> The group selector allows you to select multiple elements and apply the same style to all of them. </p> <br>
+
+<h4> Example CSS Code: </h4>
+<p> h1, h2, h3 {color: darkgreen; text-align: center;} </p> <br>
+
+<p>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt; CSS selectors &lt;/title&gt;
+&lt;link rel="stylesheet" href="styled.css" type="text/css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;h1&gt; Harry Potter &lt;/h1&gt;
+&lt;p&gt; The boy who lived &lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt; </p> <br>
+
+<h4> styled.css &#8594; </h4>
+<p style="background-color:SteelBlue; color:White;">
+h1,p {color:yellow; background-color:red;} </p> <br>
+
+<a class="output" href="styled.html"> Browser Output </a> <br>
+
+
+<h3 class="text" style="font-size:30px;"> Attribute Selector </h3> <br>
+<p> The attribute selector selects elements based on specific attribute values. The syntax for the attribute selector is: <b> Element[attribute] </b> </p> <br>
+
+<h4> Example CSS Code: </h4>
+<p> input[type="text"] {border: 1px solid gray;} </p> 
+<p> input[type="submit"] {background-color: green; color: white;} </p> <br>
+
+<p>
+&lt;!DOCTYPE html&gt; <br>
+&lt;html&gt; <br>
+&lt;head&gt; <br>
+&lt;title&gt; CSS selectors &lt;/title&gt; <br>
+&lt;link rel="stylesheet" href="aselector.css" type="text/css"&gt; <br>
+&lt;/head&gt; <br>
+&lt;body&gt; <br>
+&lt;p class="first"&gt; Gryffindor &lt;/p&gt; <br>
+&lt;p class="second"&gt; Ravenclaw &lt;/p&gt; <br>
+&lt;p class="third"&gt; Hufflepuff &lt;/p&gt; <br>
+&lt;p&gt; Slytherin &lt;/p&gt; <br>
+&lt;/body&gt; <br>
+&lt;/html&gt; </p> <br>
+
+<h4> aselector.css &#8594; </h4>
+<p style="background-color:SteelBlue; color:White;">
+p[class] {background-color:red;} </p>
+<p style="background-color:SteelBlue; color:White;">
+p[class="second"] {color:blue;} </p>
+<p style="background-color:SteelBlue; color:White;">
+p[class="third"] {color:yellow;}
+</p> <br>
+
+<a class="output" href="aselector.html"> Browser Output </a> <br>
+
+<h4> When to use class selector: </h4> <br>
+<p> Use a class selector when you want to apply the same style to multiple elements or when elements share a common category or purpose. Use class when styling many elements that share the same style — even if they have different tags. </p> <br>
+
+<h4> When to use ID selector: </h4> <br>
+<p> Use an ID selector when styling a unique element that appears only once on a page (like a header, footer, or main section). </p>
+
+<h4> When to use element/tag selector: </h4> <br>
+<p> Use an element selector to style all occurrences of a specific HTML tag (like all &lt;p&gt; or &lt;h1&gt;). </p> <br>
+
+<h4> When to use universal selector: </h4> <br>
+<p> Use the universal selector when you want to style all elements on the page — for example, to reset margins, padding, or box-sizing. </p> <br>
+
+<h4> When to use group selector: </h4> <br>
+<p> Use a group selector when different elements share the same styling — to avoid repeating code. </p> <br>
+
+<h4> When to use attribute selector: </h4> <br>
+<p> Use an attribute selector when you want to style elements based on their HTML attributes or attribute. </p> <br>
+
+
+<br><br><br>
+
+<h1 class="content"> Reflection </h1>
+<p> In this lesson, I learned more about CSS selecotrs. I now know the differences between class, ID, element, group, and attribute selectors and when or how to use each one. This information helps me write cleaner, more organized, and more flexible CSS for any webpage. </p> <br><br><br>
+
+<a class="back" href="ICT5.html"> &#8593; Back to Top </a> <br><br>
+
+
+</body>
+</html>

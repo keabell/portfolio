@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head><title> E-Portfolio </title>
+<link rel="stylesheet" href="portfolio.css" type="text/css">
+</head>
+<body>
+
+<h1 class="heading"> E-Portfolio </h1>
+
+<div class="topnav">
+  <a class="nav" href="index.html">Home</a>
+  <a class="nav" href="abtme.html">My Personal Space</a>
+  <a class="nav" href="ICT.html">ICT</a>
+  <a class="nav" href="AP.html">AP</a>
+  <a class="nav" href="events.html">Events</a>
+</div>
+<br><br>
+
+
+<main>
+     <a class="back" href="ICT.html"> &#8592; Back </a> <br><br><br>
+
+<h1 class="content"> Lesson 4 </h1><br><br>
+
+<h3 class="text" style="font-size:30px;"> CSS Rule </h3> <br>
+
+<p> A CSS rule has two main parts: a selector, and one or more list of style declarations. <br> <b> Basic format of a CSS style rule is as follows: </b> </p> <br>
+
+<h4 style="font-size:20px;"> For Inline style rule: </h4>
+
+<p style="font-size:12px;"> &lt;tag style=“style decalaration”&gt; <br> &lt;tag style=“prop1:value; prop2:value; prop3:value;&gt; </p>
+
+<h4 style="font-size:20px;"> For document-level and external style sheets: </h4>
+
+<p style="font-size:12px;"> selector {style declarations} <br> selector {prop1:value; prop2:value; prop3:value;} </p>
+
+<h3 class="text" style="font-size:30px;"> Style Properties </h3> <br>
+
+<h4> Properties are collected into six groups: </h4>
+
+<ol> 
+    <li> Fonts </li>
+    <li> Colors and backgrounds </li>
+    <li> Text </li>
+    <li> Boxes and layout </li>
+    <li> Lists </li>
+    <li> Tag classifications </li>
+</ol>
+
+<h4 style="font-size: 25px;" > What are Classes? </h4>
+
+<dl>
+    <dt> Class </dt> <br> <br>
+    <dd> - is a user-defined selector </dd> <br>
+    <dd> - used to apply a style rule to specific HTML tags </dd> <br>
+    <dd> - can control individual HTML element formatting </dd> <br>
+    <dd> - is a reusable style definition that allows you to apply the same set of formatting rules to multiple HTML elements </dd> <br> 
+</dl>
+
+<p> <b> <em> Example: </em> </b> you can create a class only for the paragraphs to which you have assigned the class. </p> <br>
+
+<ul>
+    <li> Classes are defined by dots (.) </li>
+    <li> There are two methods of writing class. </li> 
+        <ol class="example" >
+            <li> indicating the HTML element followed by a dot then followed by the class name (any name you want for it). <br> <b> Example: </b> <em> p.golden{color:blue;} </em> </li>
+            <li> writing the class name preceded by a dot (.) <br> <b> Example: </b> <em> .sodapop{color:red;} </em> </li>
+        </ol>
+    <li> In HTML, you can apply it using the <b> class=“classname” </b> attribute. </li>
+    <li> The example <em> p.golden{color:blue;} </em> is a style that can be used on paragraphs. </li>
+    <li> The example <em> .sodapop{color:red;} </em> can be used on any HTML element. </li>
+    <li> A class must be called on the HTML file for it to be used. </li>
+</ul>
+
+<h4 style="font-size: 20px;" > How is this done? </h4>
+
+<p> Calling classes are done by putting the <b> <em> class </em> </b> attribute in the tag you want to style and the <b> <em> class name </em> </b> as its value. </p> 
+
+<img src="classname.jpg" alt="Classname" width="350" height="150">
+
+<ul> 
+    <li> One element can have more than one class, and one class can be applied to many elements. </li>
+    <li> Classes are ideal when you want consistency across multiple elements but still want flexibility. </li>
+</ul> 
+
+<img src="class.jpg" alt="Class Ouput" width="500" height="300"> <img src="class2.jpg" alt="Class Ouput" width="500" height="300"> 
+
+<h3 class="text" style="font-size:25px;"> Class Selector </h3> <br>
+
+<h4 style="font-size: 20px;" > What are element+class selector (element.classname)? </h4>
+
+<ul>
+    <li> A style applied to a particular set of elements. </li>
+    <li> More specific, it apply styles only if the element and class match. </li>
+</ul>
+
+<img src="example.jpg" alt="Example" width="350" height="150"> <br>
+
+<h4 style="font-size: 20px;" > Why use Element + Class selectors? </h4> <br>
+
+<h4 style="font-size:18px;"> <b> Class selector (.classname) </b> </h4> <br>
+<p> &#8594; reusable across different elements. </p> <br>
+
+<h4 style="font-size:18px;"> <b> Element + Class selector (p.classname) </b> </h4> <br>
+<p> &#8594; precise control over styling only <b> one type of element. </b> </p> <br>
+
+
+<h3 class="text" style="font-size: 20px;"> Grouping Selectors </h3> <br>
+<p> You can group selectors and combine it in one CSS file. Each selector should be separated by a comma. </p> <br>
+
+<h4 style="font-size:18px;"> Sample Code: </h4> <br>
+<img src="samplecode.jpg" alt="Sample Code" width="350" height="150">
+
+<br><br><br>
+
+<h1 class="content"> Reflection </h1> 
+<p> In this lesson, I learned how CSS rules work and how selectors define which elements to style. I also found out that using classes makes it easier to apply styles across multiple elements. This helped me appreciate how organization and efficiency in CSS make web design more organized. </p> <br><br><br>
+
+<a class="back" href="ICT4.html"> &#8593; Back to Top </a> <br><br>
+
+
+</body>
+</html>

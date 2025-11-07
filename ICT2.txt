@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head><title> E-Portfolio </title>
+<link rel="stylesheet" href="portfolio.css" type="text/css">
+</head>
+<body>
+
+<h1 class="heading"> E-Portfolio </h1>
+
+<div class="topnav">
+  <a class="nav" href="index.html">Home</a>
+  <a class="nav" href="abtme.html">My Personal Space</a>
+  <a class="nav" href="ICT.html">ICT</a>
+  <a class="nav" href="AP.html">AP</a>
+  <a class="nav" href="events.html">Events</a>
+</div>
+<br><br>
+
+
+<main>
+     <a class="back" href="ICT.html"> &#8592; Back </a> <br><br><br>
+
+<h1 class="content"> Lesson 2 : Style Sheets </h1><br><br>
+
+
+<img src="Structure.jpg" alt="Structure of CSS" width="500" height="300"> <img src="Syntax1.jpg" alt="Syntax" width="500" height="300"> <br>
+
+<img src="Inline1.jpg" alt="Inline" width="500" height="300"> <img src="Inline2.jpg" alt="Inline" width="500" height="300">
+
+<a class="output" href="InlineOutput.html"> Inline Browser Output </a> <br>
+
+<img src="Embedded1.jpg" alt="Embedded" width="300" height="200"> <img src="Embedded2.jpg" alt="Embedded" width="300" height="200"> <img src="Embedded3.jpg" alt="Embedded" width="300" height="200"> <br>
+
+<a class="output" href="EmbeddedOutput.html"> Embedded Browser Output </a> <a class="output" href="EmbeddedOutput2.html"> Embedded Browser Output 2 </a> <br> 
+
+<img src="External1.jpg" alt="External" width="500" height="300"> <img src="External2.jpg" alt="External" width="500" height="300"> <br>
+
+<a class="output" href="ExternalOutput.html"> External Browser Output </a> <br>
+
+<img src="Comment2.jpg" alt="Comment" width="500" height="300"> <img src="Comment1.jpg" alt="Comment" width="500" height="300">
+
+<a class="output" href="CommentOutput.html"> Comment Browser Output </a> <br>
+
+<br><br><br>
+
+<h1 class="content"> Reflection </h1> 
+<p> This lesson has helped me learn more about CSS, and helped me appropriately use CSS in coding. I understood that CSS helps make websites more organized, consistent, and visually appealing to viewers. This lesson taught me how styling separates design from structure, making web development easier and more efficient. </p> <br><br><br>
+
+<a class="back" href="ICT2.html"> &#8593; Back to Top </a> <br><br>
+
+
+</body>
+</html>

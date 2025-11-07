@@ -1,0 +1,2 @@
+p {color:Gold;} 
+p{background-color:LemonChiffon;}
