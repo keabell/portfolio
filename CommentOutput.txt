@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head><title> Comments </title>
+<style type="text/css">
+  p {color:red; text-align:center}
+/*Color Red Paragraph*/
+ h1,h3{color:blue; text-align:left;}
+  /*This is a multi-line comment for paragraph*/
+</style>
+</head>
+<body bgcolor="Pink">
+<p> This is the only paragraph there is. </p>
+
+<img src="comment.jpg" alt="Comment" width="700" height="300">
+</body>
+</html>

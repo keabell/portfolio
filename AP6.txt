@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head><title> E-Portfolio </title>
+<link rel="stylesheet" href="portfolio.css" type="text/css">
+</head>
+<body>
+
+<h1 class="heading"> E-Portfolio </h1>
+
+<div class="topnav">
+  <a class="nav" href="index.html">Home</a>
+  <a class="nav" href="abtme.html">My Personal Space</a>
+  <a class="nav" href="ICT.html">ICT</a>
+  <a class="nav" href="AP.html">AP</a>
+  <a class="nav" href="events.html">Events</a>
+</div>
+<br><br>
+
+
+<main>
+     <a class="back" href="AP.html"> &#8592; Back </a> <br><br><br>
+
+<h1 class="content"> Lesson 6 : Pagkontrol sa Presyo </h1><br><br>
+
+
+<h3 class="text" style="font-size:30px;"> Price Control </h3> <br>
+<p> &#8594; ipinapatupad ng gobyerno sa presyo ng mga bilihin at serbisyo upang mapanatili ang kanilang abot-kayang halaga o upang masiguro ang minimum na kita ng mga prodyuser </p> <br>
+
+<h4> Republic Act 7581 </h4>
+<ul> 
+    <li> kilala sa tawag na "Price Control Act" </li>
+    <li> layunin na maisagawa ng pamahalaan ang pagkontrol sa presyo ng mga bilihin </li>
+</ul>
+
+<h4> National Price Coordination Council </h4> 
+<p> Ito ay may layunin na mabantayan ang presyo ng mga produkto pagkatapos magpalabas ng <i> price ceiling </i> ang pamahalaan </p>
+
+<h3 class="text" style="font-size:30px;"> Price Ceiling </h3> <br>
+<ul>
+    <li> Ito ay ang pinakamataas na presyong itinakda ng pamahalaan upang ipagbili ang mga produkto </li>
+    <li> Ito ay isinasagawa ng pamahalaan upang tulungan at bigyang proteksyon ang mga mamimili laban sa mga abusado at mapagsamantalang mga negosyante </li>
+    <li> Itinakda ito na mas mababa sa equilibrium price na umiiral sa pamilihan </li>
+</ul>
+
+<h3 class="text" style="font-size:25px;"> Price Freeze </h3> <br>
+<p> &#8594; Pagbabawal sa pagtaas ng presyo sa pamilihan. Ipinatutupad ito ng pamahalaan upang mapigilan ang pananamantala sa mga negosyante sa labis na pagpapataw ng mataas na presyo ng kanilang mga produkto. </p> <br>
+
+<h3 class="text" style="font-size:30px;"> Floor Price </h3> <br>
+<p> &#8594; Ito ay ang pinakamababa na presyo na itinakda ng pamahalaan upang ipagbili ang mga produkto </p> <br>
+
+<h4> Advantages and Disadvantages of Price Control </h4> <br>
+
+<table border="1">
+   <tr>
+      <th> Advantages </th>
+      <th> Disadvantages </th>
+   </tr>
+   <tr>
+      <td> Napanatili ang abot-kayang presyo para sa mga mamimili </td>
+      <td> Magkakaroon ng kakulangan ng supply </td>
+   </tr>
+   <tr>
+      <td> Naipagtatanggol ang kapakanan ng mahihirap </td>
+      <td> Mawawalan ng gana ang prodyuser na magtinda </td>
+   </tr>
+   <tr>
+      <td> Napapanatili ang katatagan ng pamilihan </td>
+      <td> Magkakaroon ng illegal na bentahan o <i> black market </i> </td>
+   </tr>
+</table>
+
+<img src="price.jpg" alt="Price" width="500" height="300"> <img src="pcontrol.jpg" alt="Inline" width="500" height="300">
+
+<br><br><br>
+
+<a class="back" href="AP6.html"> &#8593; Back to Top </a> <br><br>
+
+
+</body>
+</html>

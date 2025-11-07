@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head><title> E-Portfolio </title>
+<link rel="stylesheet" href="portfolio.css" type="text/css">
+</head>
+<body>
+
+<h1 class="heading"> E-Portfolio </h1>
+
+<div class="topnav">
+  <a class="nav" href="index.html">Home</a>
+  <a class="nav" href="abtme.html">My Personal Space</a>
+  <a class="nav" href="ICT.html">ICT</a>
+  <a class="nav" href="AP.html">AP</a>
+  <a class="nav" href="events.html">Events</a>
+</div>
+<br><br>
+
+
+<main>
+     <a class="back" href="AP.html"> &#8592; Back </a> <br><br><br>
+
+<h1 class="content"> Lesson 4 : Equilibrium </h1><br><br>
+
+<h3 class="text" style="font-size:30px;"> Equilibrium </h3> <br>
+<p> &#8594; isang kalagayan na walang sinumang mamimili at nagbibili ang gustong baguhin ang kasalukuyang sitwasyon sa pamilihan <br>
+    &#8594; ipinapakita ng ekwilibriyo ang pagkakasundo ng bumibili at nagbibili sa takdang presyo at dami ng produkto </p> <br>
+
+<h3 class="text" style="font-size:20px;"> Talahanayan </h3> <br>
+<img src="talahanayan.jpg" alt="Talahanayan" width="500" height="300"> <br>
+<p> Maaari ding makuha ang equilibrium price sa pamamagitan ng ng demand at supply function </p> <br>
+
+<h4 style="font-size:20px;"> Pagkuha ng Equilibrium Price </h4> <br>
+<img src="eprice.jpg" alt="Formula" width="500" height="300"> <br>
+
+<h3 class="text" style="font-size:25px;"> Tandaan !! </h3> <br>
+<ul>
+    <li> Kung bumaba naman ang presyo, gaganahan ang mamimili na bumili at magkakaroon ng <b> shortage </b> dahil sa kakulangan ng supply </li>
+    <li> Kung tumaas naman ang presyo, ang mga prodyuser ay gaganahang magprodyus ng marami, ngunit ang pagtaas ng presyo at makabawas sa kakayahan ng mamimili na bumili. Magkakaroon ng labis na suply o <b> surplus. </b> </li>
+</ul>
+
+<p> Ang alinman sa isa ang tumaas o bumaba ang bilang at hindi ito balanse, magkakaroon ng <b> disequilibrium </b> o <b> disekwilibriyo. </b> </p> <br>
+
+
+
+<br><br><br>
+
+<a class="back" href="AP4.html"> &#8593; Back to Top </a> <br><br>
+
+
+</body>
+</html>

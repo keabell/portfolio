@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head><title> E-Portfolio </title>
+<link rel="stylesheet" href="portfolio.css" type="text/css">
+</head>
+<body class="personalspace">
+
+<h1 class="heading"> E-Portfolio </h1>
+
+<div class="topnav">
+  <a class="nav" href="index.html">Home</a>
+  <a class="nav" href="abtme.html">My Personal Space</a>
+  <a class="nav" href="ICT.html">ICT</a>
+  <a class="nav" href="AP.html">AP</a>
+  <a class="nav" href="events.html">Events</a>
+</div>
+<br><br>
+
+
+<main>
+  <div class="reflection-container">
+    <div class="media-row">
+      <img src="fam1.jpg" alt="Family Photo">
+      <img src="fam2.jpg" alt="Family Photo">
+    </div>
+
+    <div class="reflection-text">
+      <h1 class="content"> My Family </h1> <br>
+      <p> My family are my forever companions.</p> <br>
+      <p> They guided me and taught me lessons and values that stuck with me growing up. I used the stories about their experiences to make good choices. They have been there for me for every achievement, failure, and success. </p>
+    </div>
+  </div>
+
+<br><br>
+
+  <div class="reflection-container">
+    <div class="media-row">
+      <img src="cof1.jpg" alt="Friends Photo">
+      <img src="cof2.jpg" alt="Friends Photo">
+    </div>
+
+    <div class="reflection-text">
+      <h1 class="content"> My Circle of Friends </h1> <br>
+      <p> The people who make me feel joy, comfort, and safety. My second home. </p> <br>
+      <p> During the times I can't tell my family how I feel, I know I have people to run to. I have the people that I have experienced ups and downs with.  </p>
+    </div>
+   </div>
+
+
+</body>
+</html>
+

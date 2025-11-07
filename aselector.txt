@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> CSS selectors </title>
+<link rel="stylesheet" href="aselector.css" type="text/css">
+</head>
+<body>
+<p class="first"> Gryffindor </p>
+<p class="second"> Ravenclaw </p>
+<p class="third"> Hufflepuff </p>
+<p> Slytherin </p>
+</body>
+</html> 

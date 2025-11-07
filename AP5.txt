@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head><title> E-Portfolio </title>
+<link rel="stylesheet" href="portfolio.css" type="text/css">
+</head>
+<body>
+
+<h1 class="heading"> E-Portfolio </h1>
+
+<div class="topnav">
+  <a class="nav" href="index.html">Home</a>
+  <a class="nav" href="abtme.html">My Personal Space</a>
+  <a class="nav" href="ICT.html">ICT</a>
+  <a class="nav" href="AP.html">AP</a>
+  <a class="nav" href="events.html">Events</a>
+</div>
+<br><br>
+
+
+<main>
+     <a class="back" href="AP.html"> &#8592; Back </a> <br><br><br>
+
+<h1 class="content"> Lesson 5 : Pamilihan </h1><br><br>
+
+<h3 class="text" style="font-size:30px;"> Pamilihan </h3> <br>
+<p> &#8594; ay ang nagsisilbing tagpuan ng mga prodyusers at konsyumers <br>
+    &#8594; ayon kay <u> <i> Adam Smith, </i> </u> may invisible na kamay (presyo) ang gumagabay sa prodyuser at konsyumer upang maisaayos ang pamilihan </p> <br>
+
+<h4> Estraktura ng Pamilihan </h4>
+<p> &#8594; tumutukoy sa balangkas na umiiral sa sistema ng pamilihan kung saan ipinapakita ang ugnayan ng prodyuser at konsyumer. </p>
+
+<ul>
+    <li> Estrakturang may Ganap na Kompetisyon </li>
+    <li> Estrakturang may Di-Ganap a Kompetisyon </li>
+</ul>
+
+<img src="epamilihan.jpg" alt="Pamilihan" width="400" height="300"> <br>
+
+<h4 style="font-size:25px;"> Ganap na Kompetisyon </h4> <br>
+<ul> 
+    <li> Maraming maliit na konsyumer at prodyuser </li>
+    <li> Magkakatulad ang produkto </li>
+    <li> Malayang paggalaw ng sangkap na produksyon ,/lia,
+    <li> Malayang nakakapasok nakakalabas  industriya </li>
+    <li> malayang ang impormasyon ukol sa pamilihan </li>
+</ul>
+
+<h4 style="font-size:25px;"> Di-Ganap na Kompetisyon </h4> <br>
+<ul> 
+    <li> Sa estrakturang ito y may kakayahan na maimpluwensyahan ang presyo sa pamilihan </li>
+</ul>
+
+
+<h3 class="text" style="font-size:30px;"> Monopolyo </h3> <br>
+<ul>
+    <li> iisa lamang ang nagtitinda  nagkokontrol </li>
+    <li> walang direktang kapalit </li>
+    <li> ang produkto ay lubhang mahalaga </li>
+    <li> May kakayahang hadlangan ang mga kalaban </li>
+    <li> Ang mga konsyumer ay napipilitang tanggapin ang pagiging makapangyarihan  monopolista </li>
+</ul>
+
+<h3 class="text" style="font-size:30px;"> Monopsonyo </h3> <br>
+<p> &#8594; Mayroon lamang iisang konsyumer ngunit maraming prodyuser ng produkto o serbisyo </p> <br>
+
+<h3 class="text" style="font-size:30px;"> Oligapolyo </h3> <br>
+<p> &#8594; Kaunti lamang prodyuser, ngunit marami ang konsyumer </p> <br>
+
+<h3 class="text" style="font-size:30px;"> Monopolistikong Kompetisyon </h3>
+<ul>
+    <li> Marami ang prodyuser at konsyumer </li>
+    <li> May kakayahan ang prodyuser na magtakda  sariling niyang presyo </li> 
+    <li> <b> PRODUCT DIFFERENTATION </b> </li>
+</ul>
+
+<img src="pamilihan.jpg" alt="Pamilihan" width="500" height="300">
+
+<br><br><br>
+
+<a class="back" href="AP5.html"> &#8593; Back to Top </a> <br><br>
+
+
+</body>
+</html>

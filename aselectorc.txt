@@ -1,0 +1,3 @@
+p[class] {background-color:red;}
+p[class="second"] {color:blue;}
+p[class="third"] {color:yellow;}

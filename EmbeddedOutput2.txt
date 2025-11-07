@@ -1,0 +1,15 @@
+<!DOCTYPE html> 
+<html>
+<head><title> Paragraphs </title>
+<style type="text/css">
+h1 {color:blue;}
+</style>
+</head>
+<body>
+<h1> Embedded Style Sheet </h1>
+<p> This is an example of an embedded style sheet. </p>
+
+<img src="embedded.jpg" alt"Inline" width="500" height="300">
+
+</body>
+</html>

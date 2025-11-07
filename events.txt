@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head><title> E-Portfolio </title>
+<link rel="stylesheet" href="portfolio.css" type="text/css">
+</head>
+<body>
+
+<h1 class="heading"> E-Portfolio </h1>
+
+<div class="topnav">
+  <a class="nav" href="index.html">Home</a>
+  <a class="nav" href="abtme.html">My Personal Space</a>
+  <a class="nav" href="ICT.html">ICT</a>
+  <a class="nav" href="AP.html">AP</a>
+  <a class="nav" href="events.html">Events</a>
+</div>
+<br><br>
+
+<h1 class="head2"> Events </h1>
+<br><br>
+
+  <div class="reflection-container">
+    <div class="media-row">
+      <img src="buwanngwika.jpg" alt="Photo">
+      <img src="bnw1.jpg" alt="Photo">
+    <video controls>
+         <source src="bwn.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="reflection-text">
+      <h1 class="content"> Buwan ng Wika </h1> <br>
+      <p> The most important moment was when we were all connected/united because of our language and culture. <br> I applied this knowledge by speaking more fluently in Tagalog and by appreciating our culture. <br> Yes, I participated by wearing traditional cultural attires. <br> I would teach others by speaking to them with our language and by showing them how beautiful our culture really is. <br> This is important because <b> buwan ng wika </b> reminds us about our culture. This reminds us that we have a beautiful language and culture and we should cherish and honor our roots. </p>
+    </div>
+   </div>
+
+<br> <br>
+
+  <div class="reflection-container">
+    <div class="media-row">
+      <img src="intrams.jpg" alt="Photo">
+      <img src="intrams2.jpg" alt="Photo">
+    </div>
+
+    <div class="reflection-text">
+      <h1 class="content"> Intrams </h1> <br>
+      <p> The most important thing I learnt was about the importance of good sportsmanship, and that lapiscians truly honor our school mantra "A bright mind is nothing without a humble heart". <br> I applied this knowledge by always being a good sport despite failures or success. <br> Yes, I participated by cheering on the players. <br> I would teach others by helping and motivating them to be active. <br> This is important because during <b> Intrams </b> is where you really see how lapiscians remain humble. They set as an example and show good sportsmanship and teamwork. </p>
+    </div>
+   </div>
+
+<br> <br>
+
+  <div class="reflection-container">
+    <div class="media-row">
+      <img src="sci.jpg" alt="Photo">
+      <img src="sci2.jpg" alt="Photo">
+    <video controls>
+         <source src="sci.mp4" type="video/mp4">
+    </video>
+    </div>
+
+    <div class="reflection-text">
+      <h1 class="content"> Science </h1> <br>
+      <p> The most important thing I learnt was how important it is to be patient and to cooperate with your peers. <br> I applied this knowledge by listening to others' ideas and cooperating with them. <br> Yes, I participated by working on our WINs corner. <br> I would teach others by including them during tasks for all of us to have contributions. <br> This is important because we didn't have any trouble, we may have gotten into some disagreements but we all worked through it and each helped in designing our WINs corner. </p>
+    </div>
+   </div>
+
+<br> <br>
+
+  <div class="reflection-container">
+    <div class="media-row">
+      <img src="ap.jpg" alt="Photo">
+      <img src="ap2.jpg" alt="Photo">
+    </div>
+
+    <div class="reflection-text">
+      <h1 class="content"> AP Month </h1> <br>
+      <p> The most important moment was when we were informed about the issue with the West Philippine Sea, I learnt more about it and the possible effects it could bring to us. <br> I applied this knowledge by listening to the talk and keeping it in mind. <br> Yes, I participated by answering the quiz about the talk. <br> I would teach others by also informing and opening their eyes about the issue. <br> This is important because we as Filipinos need to know what is going on with our territory, we need to be updated with social issues that could have a great impact on us, and our economy. </p>
+    </div>
+   </div>
+
+<br> <br>
+
+  <div class="reflection-container">
+    <div class="media-row">
+      <img src="tday.jpeg" alt="Photo">
+      <img src="tday2.jpg" alt="Photo">
+    </div>
+
+    <div class="reflection-text">
+      <h1 class="content"> Teacher's Day </h1> <br>
+      <p>  The most important thing I learnt was the importance of gratitude and acknowledgement, we gave our teachers gifts or letters and recognized their hard work and all the effort they make everyday just to teach us. <br> I applied this by always thanking the people who surround me for the things they do and acknowledge their efforts. <br> Yes, I participated by joining the celebration prepared by our officers, and by joining the surprise for our former adviser, Ms. Canaria, with my old section in grade 8, 8-Courage, with flowers and gifts. <br> I would explain to them that showing appreciation is imporant to show that you are really grateful. <br> This is important because we got to express our gratitude and appreciation to our teachers for actively helping us gain more knowledge. </p>
+    </div>
+   </div>
+
+  <div class="reflection-container">
+    <div class="media-row">
+      <img src="cluster.jpg" alt="Photo">
+      <img src="cluster2.jpg" alt="Photo">
+    </div>
+
+    <div class="reflection-text">
+      <h1 class="content"> Cluster Meet </h1> <br>
+      <p> The most important thing I learnt was how important it is to cheer for someone and how it matters so much. <br> I can apply this by remaining a good sport throughout wins and losses. <br> Yes, I participated by cheering for our school and the players. <br> I would teach others that motivation can help you strive to do your best. <br> This is important because our school got to play and the players were motivated by our cheers and exerted their effort. </p>
+    </div>
+   </div>
+
+</body>
+</html>

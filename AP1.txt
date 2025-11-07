@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head><title> E-Portfolio </title>
+<link rel="stylesheet" href="portfolio.css" type="text/css">
+</head>
+<body>
+
+<h1 class="heading"> E-Portfolio </h1>
+
+<div class="topnav">
+  <a class="nav" href="index.html">Home</a>
+  <a class="nav" href="abtme.html">My Personal Space</a>
+  <a class="nav" href="ICT.html">ICT</a>
+  <a class="nav" href="AP.html">AP</a>
+  <a class="nav" href="events.html">Events</a>
+</div>
+<br><br>
+
+
+<main>
+     <a class="back" href="AP.html"> &#8592; Back </a> <br><br><br>
+
+<h1 class="content"> Lesson 1 : Konsepto ng Demand </h1><br><br>
+
+<h3 class="text" style="font-size:30px;"> Demand </h3> <br>
+
+<ul>
+    <li> tumutukoy sa dami ng produkto o serbisyo na gusto at kayang bilhin ng mga mamimili sa isang takdang presyo at partikular na panahon </li>
+    <li> ang kakayahan at kagustuhan ng tao na makamit at bilhin ang isang serbisyo o ang kanyang produkto </li>
+    <li> nagtatakda ng pangangailangan at kagustuhan </li>
+</ul <br> 
+
+<p> <b> <u> <i> Kaugnayan ng Presyo sa Demand ng Tao </i> </u> </b> <br> &#8594; Ang presyo ang pinakamahalagang nagtatakda (o determinant) sa dami ng demand </p> <br>
+
+<h4> Batas ng Demand o Ceteris Paribus </h4> <br>
+<p> Kapag tumataas ang presyo, bumababa ang dami ng gusto at kayang bilhin, at kapag bumaba ang presyo, tataas naman ang dami ng gusto at kayang bilhin </p> <br>
+
+<h4> Ceteris Paribus &#8594; </h4> <p> ipinagpapalagay na ang presyo lamang ang salik na nakaaapekto sa pagbabago ng quantity demanded, habang ang ibang salik ay hindi nagbabago o nakakaapekto rito. </p> <br>
+
+<h3 class="text" style="font-size:28px;"> Economic Indicators </h3> <br>
+
+<h4> Substitution Effect </h4> <br>
+<ul> 
+    <li> naghahanap ng alternatibo o pamalit </li>
+    <li> kapag tumataas ang presyo ng isang produkto, ang mga mamimili ay hahanap ng pamalit na mas mura </li>
+</ul> <br>
+
+<h4> Income Effect </h4> <br>
+<ul>
+    <li> naghahanap ng mas malaki ang halaga ng kinikita kapag mas mababa ang presyo </li>
+</ul> <br>
+
+<p> Demand = Kagustuhan + Pangangailangan </p> <br>
+
+<h4> Demand Function </h4> 
+<ul>
+    <li> QD = <b> Dependent Variable </b> </li>
+    <li> P = <b> Independent Variable </b> </li>
+    <li> matematikong pagpapakita o paglalahad sa ugnayan ng preso at quantity demanded sa pamamagitan ng formula (Qd) </li>
+</ul>
+
+<p style="background-color:SteelBlue; color:White;"> Qd = a - b(P) </p>
+
+<ul>
+    <li> Qd = dami ng demand o <i> quantity demanded </i> </li>
+    <li> a = dami ng demand kung ang presyo ay 0 </li>
+    <li> b = slope ng demand function / interval na pagbabago </li>
+    <li> P = <i> presyo </i> </li>
+</ul> <br>
+
+<img src="demandfunction.jpg" alt="Demand Function" width="500" height="300"> <br>
+
+<h4> Demand Schedule </h4> 
+<ul>
+    <li> tsart na nagpapakita ng bilang ng mga kalakal o serbisyo na handang bilhin ng mga mamimili sa iba’t ibang presyo sa isang takdang panahon </li>
+    <li> isang talahanayan na nagpapakita ng ugnayan sa pagitan ng presyo ng mga kalakal na nais bayaran ng mga mamimili sa kanila sa presyo na iyon </li>
+</ul>
+
+<h4> Demand Curve </h4>
+<ul>
+    <li> grapikong representasyon ng <b> <i> Batas ng Demand </i> </b> </li>
+    <li> isang linya (tuwid o kurba) na nagpapakita ng negatibong relasyon ng presyo ng isang produkto at ang bilang ng produktong handang bilhin ng mamimili </li>
+</ul>
+
+<img src="demandcurve.jpg" alt="Demand Curve" width="500" height="300"> <br>
+
+<h3 class="text" style="font-size:30px;"> Mga Salik ng Demand </h3>
+<ul>
+    <li> Kita ng mga Mamimili</li>
+    <li> <i> Populasyon </i> o Dami ng mga Mamimili </li>
+    <li> Panlasa </li>
+    <li> Presyo ng Magkaugnay na Produkto sa Pagkonsumo </li>
+    <li> Inaasahan ng mga Mamimili </li>
+    <li> Okasyon </li>
+    <li> Panahon o Klima </li>
+</ul>
+
+<br><br><br>
+
+<a class="back" href="AP1.html"> &#8593; Back to Top </a> <br><br>
+
+
+</body>
+</html>
